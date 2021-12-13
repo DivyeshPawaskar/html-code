@@ -1,0 +1,50 @@
+<!Doctype Html>
+<Html>
+
+<Head>
+    <Title>
+        Create a Login form
+    </Title>
+    <link rel="stylesheet" href="css/index.css">
+</Head>
+
+<Body>
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+    <form>
+        <label>Name:
+          <input name="submitted-name" autocomplete="name">
+        </label>
+        <button>Save</button>
+      </form>
+      
+      <!-- Form which will send a POST request to the current URL -->
+      <form method="post">
+        <label>Name:
+          <input name="submitted-name" autocomplete="name">
+        </label>
+        <button>Save</button>
+      </form>
+      
+      <!-- Form with fieldset, legend, and label -->
+      <form method="post">
+        <fieldset>
+          <legend>Title</legend>
+          <label><input type="radio" name="radio"> Select me</label>
+        </fieldset>
+      </form>
+
+</Body>
+
+</Html>
